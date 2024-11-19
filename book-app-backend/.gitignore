@@ -27,3 +27,20 @@ yarn-error.log*
 
 # Vercel build settings
 .vercel
+# Ignore everything in the parent directory
+../*
+
+# But keep the current directory
+!../book-app-backend/
+
+# Node.js dependencies and build files
+node_modules/
+build/
+dist/
+.env
+
+# System files
+*.log
+.DS_Store
+.vscode/
+AppData/
